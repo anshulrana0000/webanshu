@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= ""width=device=width,initial-scale=1.0">
+    <title> FORM STYLE </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mail{
+            margin-top: 20px;
+            width: 185px;
+            padding-left: 10px;
+        }
+        .comment{
+            width: 190px;
+        }
+        .a2{
+            width: 100px;
+            height: 110px;
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+        .a1{
+            background-color: blue;
+            margin-top: 20px;
+
+        }
+        .a3{
+            display:flex
+        }
+        .a4{
+            font-size: 45px;
+            padding-top: 02px;
+            padding-left: 15px;
+        }
+        .a9{
+            display: flex;
+            gap: 30px;
+            justify-content: end;
+            padding-bottom: 30px;
+            padding-right: 20px;
+        }
+        .form{
+            border: 2px solid black;
+            padding:70px 100px ;
+        }
+        .h11{
+            margin-bottom: 10px;
+        }
+        .margin{
+            margin-top: 10px;
+        }
+        </style>
+        </head>
+        <body>
+        <div class="a1">
+        <div class="a3">
+        <img src="facebook.png" alt="facebook logo"class="a2">
+        <p class="a4">FACEBOOK</p>
+        </div>
+        <div>
+        <ul class="a9">
+            <li>About</li>
+            <li>Home</li>
+            <li>Address</li>
+            <a href="formstyle.html">
+                <li>contact</li>
+            </a>
+        </ul>
+        </div>
+        </div>
+        <form class="form1">
+            <h1 class="h11">FILL THE FORM </h1>
+            <label for="name">NAME:</label> <br>
+            <input type="text"id="name">
+            <br>
+            <label for="phone-number">phone-number:</label>
+            <input type="number"id="phone-number">
+            <br>
+            <h2 class="h22margin">Select your gender</h2>
+            <input type="radio" name="gender" value="male"id="male">
+            <label for="male">male</label>
+        <br>
+        <input type="radio"name="gender" value="female"id="female">
+        <label for="female">Female</label>
+
+        <h3 class="h33margin">select your Hobbies</h3>
+        <input type="checkbox" name="hobbies"id="reading">
+        <label for="reading">reading</label>
+        <input type="checkbox"name="hoobies"id="playing">
+        <label for="playing">playing</label>
+        <input type="checkbox"name="cooking"id="cooking">
+        <label for="cooking">cooking</label>
+        <input type="submit" value="submit" class="margin">
+        <input type="reset" value="reset">
+        </form>
+        </body>
+</html>
